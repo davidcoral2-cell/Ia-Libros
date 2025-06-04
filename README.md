@@ -1,12 +1,50 @@
-# React + Vite
+# 📚 IA-Libros – Recomendador de Libros con Firebase y React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web que permite a cualquier usuario autenticado con Google:
+- Añadir libros a su biblioteca personal
+- Eliminar libros fácilmente
+- Obtener recomendaciones de lectura generadas por una IA
+- Guardar todo en Firebase
 
-Currently, two official plugins are available:
+Diseñada con ❤️ por [@davidcoral2-cell](https://github.com/davidcoral2-cell)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologías utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔷 **React + Vite** – Interfaz moderna y rápida
+- 🔐 **Firebase Auth** – Login con cuenta de Google
+- ☁️ **Firestore** – Base de datos en la nube
+- 🧠 **Hack Club AI API** – IA para recomendar libros
+- 🎨 **Material UI (MUI)** – Componentes visuales elegantes
+
+---
+
+## 🎯 Funcionalidades
+
+- ✅ Autenticación con Google
+- ✅ Añadir libros a tu colección personal
+- ✅ Eliminar libros existentes
+- ✅ Pedir recomendaciones con IA según tus gustos
+- ✅ Persistencia de datos por usuario
+
+---
+
+## 🛠 Cómo usarlo
+
+### 1. Clonar el proyecto
+
+```
+
+bash
+git clone https://github.com/davidcoral2-cell/Ia-Libros.git
+
+cd Ia-Libros
+
+2. Instalar dependencias
+npm install
+
+3. Ejecutar localmente
+npm run dev
+
+Luego abre http://localhost:5173 en tu navegador. 
