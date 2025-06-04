@@ -41,10 +41,18 @@ git clone https://github.com/davidcoral2-cell/Ia-Libros.git
 
 cd Ia-Libros
 
-2. Instalar dependencias
-npm install
+---
 
-3. Ejecutar localmente
+
+### 2. Instalar dependencias
+```
+npm install
+---
+
+
+### 3. Ejecutar localmente
+```
 npm run dev
+---
 
 Luego abre http://localhost:5173 en tu navegador. 
