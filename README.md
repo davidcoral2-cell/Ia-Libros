@@ -53,6 +53,7 @@ npm install
 ### 3. Ejecutar localmente
 ```
 npm run dev
----
+
+```
 
 Luego abre http://localhost:5173 en tu navegador. 
