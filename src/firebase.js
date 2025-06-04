@@ -4,13 +4,13 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDXliBoCsSFVms0l8StObIi7WW8nm4AGio",
-  authDomain: "ia-libros-adaeb.firebaseapp.com",
-  projectId: "ia-libros-adaeb",
-  storageBucket: "ia-libros-adaeb.firebasestorage.app",
-  messagingSenderId: "196175493792",
-  appId: "1:196175493792:web:0ea7b6e907f96c06d6a7c5",
-  measurementId: "G-TERHT23P8S"
+  apiKey: "YOUR_API_KEI",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID",
+  measurementId: "YOUR_MEASUREMENT_ID"
 };
 
 const app = initializeApp(firebaseConfig);
